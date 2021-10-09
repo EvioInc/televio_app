@@ -29,7 +29,7 @@ class ParkingNumberPlateModel {
   Color textColor = white;
   Color? backgroundColor = deepBlue;
   String? backgroundAsset;
-  String? material;
+  String? material = 'deepBlue';
 
   Map<String, dynamic> toJson() => {
         'createAt': DateTime.now().toString(),
